@@ -1,0 +1,6 @@
+Dec 10, 2023 12:02:00 AM seminars.task5_1 write
+INFO: Some kind of mistake
+Dec 10, 2023 12:11:56 AM seminars.task5_1 main
+INFO: main method started
+Dec 10, 2023 12:11:56 AM seminars.task5_1 write
+INFO: Some kind of mistake

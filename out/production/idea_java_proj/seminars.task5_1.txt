@@ -1,0 +1,10 @@
+.git
+.idea
+info
+log.0.0.txt
+log.0.0.txt.lck
+log.config
+out
+seminars
+seminars.task5_1.txt
+task9.txt

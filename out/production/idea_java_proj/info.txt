@@ -1,0 +1,78 @@
+//ссылочные типы сравниваются через метод .equals()
+//визуализаторы https://pythontutor.com/
+// Чистый код книга. Мартин
+// слева более общий лист, справва конкретную реализацию. Удобнее
+ переменная final может быть объявлена только один раз, ее нельзя изменить
+ ctrl +alt + L format
+ native == c++
+ putty скачать
+ //LinkedList - гибкая структура данных, позволяющая менять свой размер.
+ Элементы доступны для вставки или удаления в любой позиции
+ queue - first in first out Queue<Integer> queue = new LinkedList<Integer>(); int item = queue.remove()
+ dequeue - вставка и удаления элементов как в начало так и в конец
+ PriorityQueue - наименьший приоритет имеет наивысший приоритет
+ Stack - first in last out(как рекурсия)
+hashcode() - дает какое-то число
+map - множество коллекций, работающих по принципу ключ.значение. Ускоренная обработка данных.
+Порядок добавления не запоминается. в Hashmap элементы располагаются как угодно и могут менять свое положение
+ключ уникальный. null - константа. может быть ключом
+Map<Integer, String> db = new HashMap<integer, String>();
+db.putIfAbsent(1, "one");
+db.put(2, "two");
+db.put(null, "null");
+db.get(43);
+db.contains("one");
+db.containsKey(1); containsValue();
+db.keySet();
+bd.values();
+db.remove("null" )
+db.entrySet() - итератор по которому можно идти
+HashMap(9, 1.0f) - 2 значение когда увеличивается размер
+TreeMap
+упорядочность по ключу. Не поддерживает null
+put
+get
+remove
+descendingKeySet
+descendingMap
+tailMap
+headMap
+lastEntry
+firstEntry
+LinkedHashMap - медленный, но помнит где все элементы располагаются
+Map<> m = new LinkedHashMap<>();
+HashTable - устаревшая, не знает про null
+Map<> m = new HashTable<>();
+
+leetcode easy
+grok m алгоритмы
+@hypnoZzz
+
+Set (Hashset как синоним множества)
+Работает только с ключами
+Валью константное значение
+Работает быстро, потому что построено на Map
+Hashset<>();
+Set<> set = new Hashset<>();
+add()
+size()
+contains()
+remove()
+//множества и операции с ними
+addAll(coll) - все элементы объединяем
+retainAll(col) - которые пересекаются повторяются
+removeAll(coll) - разность множеств. из (ф) убрать все значения (г)
+var a = HashSet<>(Arrays.asList(1,2,3...))
+first()
+last()
+HeadSet(E)
+tailSet(E)
+subSet(E1,E2)
+TreeMap
+упорядочен по возрастанию
+null нет
+В основе HashMap
+LinkedHashMap сохраняет порядок элементов
+Класс (big entity) и -> экземпляры класса (concrete detailed objects)
+В рамках класса задается общая структура данных, на основе которой затем создаются экземпляры
+Данные относящиеся к классу, называются полями класса, а код для их обработки методами класса
