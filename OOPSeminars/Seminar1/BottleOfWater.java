@@ -1,4 +1,4 @@
-package OOPSeminars;
+package OOPSeminars.Seminar1;
 
 public class BottleOfWater extends Product{
     private double volume;

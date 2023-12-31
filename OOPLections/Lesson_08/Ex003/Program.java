@@ -1,11 +1,12 @@
-package Lesson_08.Ex003;
+package OOPLections.Lesson_08.Ex003;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import Lesson_08.Ex003.alliance.*;
-import Lesson_08.Ex003.*;
+import OOPLections.Lesson_08.Ex003.alliance.*;
+import OOPLections.Lesson_08.Ex003.*;
+import OOPLections.Lesson_08.Ex004.Dwarf;
 
 public class Program {
     public static void main(String[] args) {
@@ -75,7 +76,7 @@ public class Program {
         Dwarf dwarf = new Dwarf();
         //dwarf.dwarf_method();
         //((Dwarf)dwarf).dwarf_method();
-        System.out.println(dwarf.name);
+        System.out.println(dwarf.getClass());
         // #endregion
     }
 }

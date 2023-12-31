@@ -1,8 +1,8 @@
-package Lesson_08.Ex002;
+package OOPLections.Lesson_08.Ex002;
 
 import java.util.Random;
 
-public class BaseHero {
+public class BaseHero { //abstract
     protected static int number;
     protected static Random r;
 
@@ -39,6 +39,7 @@ public class BaseHero {
         if (this.hp - damage > 0) {
             this.hp -= damage;
         }
-        // else { die(); }
+        //else { die(); }
     }
+    //public abstract void die(); реализовать в других классах, делая basehero абстрактным
 }

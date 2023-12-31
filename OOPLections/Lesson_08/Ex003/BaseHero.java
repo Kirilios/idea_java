@@ -1,4 +1,4 @@
-package Lesson_08.Ex003;
+package OOPLections.Lesson_08.Ex003;
 
 import java.util.Random;
 
@@ -41,4 +41,6 @@ public abstract class BaseHero {
         }
         // else { die(); }
     }
+    //public void die(){}; здесь монжо вызвать метод, но писать его нужно для каждого
+    //дочернего класса
 }

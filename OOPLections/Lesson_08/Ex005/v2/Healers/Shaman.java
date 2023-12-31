@@ -1,6 +1,6 @@
-package Lesson_08.Ex005.v2.Healers;
+package OOPLections.Lesson_08.Ex005.v2.Healers;
 
-import Lesson_08.Ex005.v2.Hero;
+import OOPLections.Lesson_08.Ex005.v2.Hero;
 
 public class Shaman extends Hero implements Healer  {
 

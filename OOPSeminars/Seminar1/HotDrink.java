@@ -1,4 +1,4 @@
-package OOPSeminars;
+package OOPSeminars.Seminar1;
 
 class HotDrink extends BottleOfWater{
    private int temperature;

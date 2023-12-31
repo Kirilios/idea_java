@@ -1,4 +1,4 @@
-package OOPSeminars;
+package OOPSeminars.Seminar1;
 
 import java.util.ArrayList;
 import java.util.List;

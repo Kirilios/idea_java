@@ -1,6 +1,6 @@
-package Lesson_08.Ex005.v2.Warriors;
+package OOPLections.Lesson_08.Ex005.v2.Warriors;
 
-import Lesson_08.Ex005.v2.Hero;
+import OOPLections.Lesson_08.Ex005.v2.Hero;
 
 public interface Warrior {
     public void attack(Hero target);

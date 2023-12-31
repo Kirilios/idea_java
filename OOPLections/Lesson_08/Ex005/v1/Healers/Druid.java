@@ -1,4 +1,4 @@
-package Lesson_08.Ex005.v1.Healers;
+package OOPLections.Lesson_08.Ex005.v1.Healers;
 
 public class Druid extends Healer {
     

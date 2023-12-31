@@ -1,4 +1,4 @@
-package OOPSeminars;
+package OOPSeminars.Seminar1;
 
 public abstract class Product {
     private String name;

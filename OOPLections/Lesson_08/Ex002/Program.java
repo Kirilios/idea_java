@@ -1,4 +1,4 @@
-package Lesson_08.Ex002;
+package OOPLections.Lesson_08.Ex002;
 
 import java.util.ArrayList;
 import java.util.List;
