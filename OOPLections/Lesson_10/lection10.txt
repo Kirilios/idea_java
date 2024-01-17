@@ -1,0 +1,17 @@
+Generics
+Обобщения
+1. Type save
+2. Reusable code (тип без привязки)
+3. На уровне экземпляра класса
+4. Не использовать на ститических типах
+List(interface)<E>  - обощение. в скобках <E> тип обобщения
+ex class Name <E>{
+private E id; (если вызываем с <Integer> то будет int, если <String> то будет String
+}
+Продумывать иерархии с неизвестными типами, в полях
+public static <U> U getElem (List<U> col, int index){
+return col.get(index);
+}
+class Repository <T extends Content> - чтобы тип мог быть только тот, колторый используется в Content.
+Типы должны находится в одной иерархии и ниже Контента
+Полиметрический полиморфизм

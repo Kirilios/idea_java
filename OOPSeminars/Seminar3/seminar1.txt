@@ -1,0 +1,4 @@
+iterator interface (boolean: hasNext<t> next void: remove)
+interface Iterable v Stream, add Iterator
+необязательно чтобы в группе были студенты
+StreamGroupIterator создаем
