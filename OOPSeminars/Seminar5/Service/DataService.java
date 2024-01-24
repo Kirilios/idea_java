@@ -15,16 +15,35 @@ public class DataService {
 
     }
 
-    public void create(String firstName, String secondName, String lastName, Type type) {
+    public User create(String firstName, String secondName, String lastName, Type type) {
         User user = null;
         int id = getFreeID(type);
+
         if (Type.STUDENT == type) {
-            user = new Student(firstName, secondName, lastName, id );
-        if (Type.TEACHER == type) {
+            user = new Student(firstName, secondName, lastName, id);
+        } else if (Type.TEACHER == type) {
             user = new Teacher(firstName, secondName, lastName, id);
-            }
+        }
+
+        if (user != null) {
             userList.add(user);
         }
+
+        return user;
+    }
+
+    public List<User> createStudents(List<String> firstNames, List<String> secondNames, List<String> lastNames) {
+        List<User> students = new ArrayList<>();
+        for (int i = 0; i < firstNames.size(); i++) {
+            String firstName = firstNames.get(i);
+            String secondName = secondNames.get(i);
+            String lastName = lastNames.get(i);
+
+            Student student = new Student(firstName, secondName, lastName, getFreeID(Type.STUDENT));
+            userList.add(student);
+            students.add(student);
+        }
+        return students;
     }
 
 

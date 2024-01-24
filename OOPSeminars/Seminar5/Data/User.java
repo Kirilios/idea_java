@@ -43,4 +43,8 @@ public class User {
                 ", lastName='" + lastName + '\'' +
                 '}';
     }
+
+    public int getStudentID() {
+        return getStudentID();
+    }
 }
