@@ -7,7 +7,7 @@ import OOPSeminars.Seminar5.Data.User;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 public class StudentGroupService {
     private List<StudentGroup> studentGroups;
