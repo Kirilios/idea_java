@@ -13,7 +13,7 @@ public class StudentGroupView {
         List<Student> studentList = studentGroup.getStudentsList();
 
         System.out.println("Group:");
-        System.out.println("ID: " + teacher.getTeacherID() + ", Teacher: " + teacher.getFirstName() + getFullName(teacher));
+        System.out.println("ID: " + teacher.getTeacherID() + ", Teacher: " + getFullName(teacher));
         System.out.println("Students:");
 
         for (User student: studentList) {
