@@ -1,9 +1,9 @@
-package Ex003Math.Core.Presenters;
+package OOPLections.Lesson_11.Ex003Math.Core.Presenters;
 
  
-import Ex003Math.Core.Infrastructure.Generator;
-import Ex003Math.Core.Models.Model;
-import Ex003Math.Core.Views.View;
+import OOPLections.Lesson_11.Ex003Math.Core.Infrastructure.Generator;
+import OOPLections.Lesson_11.Ex003Math.Core.Models.Model;
+import OOPLections.Lesson_11.Ex003Math.Core.Views.View;
 import Ex003Math.Mathematics.Exceptions.UnacceptableValueException;
 import Ex003Math.Mathematics.Shapes.Circle;
 import Ex003Math.Mathematics.Shapes.Rectangle;

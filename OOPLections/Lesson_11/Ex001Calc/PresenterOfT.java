@@ -1,4 +1,4 @@
-package Ex001Calc;
+package OOPLections.Lesson_11.Ex001Calc;
 
 public class PresenterOfT<T extends CalcModel> {
  
@@ -7,7 +7,7 @@ public class PresenterOfT<T extends CalcModel> {
     Model model;
 
     public PresenterOfT(T m, View v) {
-        model = m;
+        model = (Model) m;
         view = v;
     }
 

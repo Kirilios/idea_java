@@ -1,6 +1,6 @@
-package Ex003Math.Core.Models;
+package OOPLections.Lesson_11.Ex003Math.Core.Models;
 
-import Ex003Math.Mathematics.CalculateArea.Calculate;
+import OOPLections.Lesson_11.Ex003Math.Mathematics.CalculateArea.Calculate;
 import Ex003Math.Mathematics.Shapes.Canvas;
 import Ex003Math.Mathematics.Shapes.Shape;
 
